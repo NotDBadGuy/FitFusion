@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicons-->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>FitFusion</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/859f856037.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Header-->
+    <section id="header">
+      <nav>
+        <a class="top" href="#"
+          ><img src="assets/images/logo.png" class="logo"
+        /></a>
+        <ul id="navbar">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="#classes">CLASSES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <div class="socials">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-x-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+          </div>
+          <li><i class="fa-solid fa-x" id="close"></i></li>
+        </ul>
+        <div id="mobile">
+          <i class="fas fa-bars-staggered" id="bar"></i>
+        </div>
+      </nav>
+    </section>
+    <!--Landing-->
+    <section id="landing">
+      <h4>Embrace a fresh approach to cultivating a nourishing lifestyle!</h4>
+      <h1>Elevate your body with <span>Fit</span>Fusion</h1>
+      <div>
+        <button class="button-1">GET STARTED</button>
+        <button class="button-2" onclick="scrollToAboutUs()">LEARN MORE</button>
+      </div>
+    </section>
+    <!--Join Now-->
+    <section id="join-now">
+      <div class="row">
+        <div class="new-here">
+          <h1>New to <span>Fit</span>Fusion?</h1>
+          <h2>Your membership is up to 3 months Free if you join today!</h2>
+          <p>
+            FitFusion brings together a comprehensive range of gym services and
+            booking capabilities under one roof. From group fitness classes to
+            personal training sessions, we offer a diverse array of options to
+            cater to your fitness goals and preferences.
+          </p>
+          <button>BECOME A MEMBER TODAY</button>
+        </div>
+        <div class="line"></div>
+        <div class="work-hours">
+          <h1>Working Hours</h1>
+          <h2>Sunday: Closed</h2>
+          <h2>Monday - Friday</h2>
+          <p>7:00AM - 10:00PM</p>
+        </div>
+      </div>
+    </section>
+    <!--About Us-->
+    <section id="about-us">
+      <div class="row">
+        <div class="welcome">
+          <h1>Hello, We are<span>Fit</span>Fusion</h1>
+          <p>
+            Our exceptional fitness coaches and dedicated mental health guru are
+            here to guide you on a holistic wellness journey. From personalized
+            workouts to nurturing your emotional well-being, we're committed to
+            helping you achieve a healthier, happier life. Join us today and
+            unlock your true potential at FitFusion.
+          </p>
+        </div>
+        <div class="coaches">
+          <div class="row">
+            <div class="pro">
+              <img
+                src="assets/images/gyminstructor.jpg"
+                alt="Coach"
+                srcset=""
+              />
+              <div class="des">
+                <h5>Brandon Foster</h5>
+                <h4>GYM INSTRUCTOR</h4>
+              </div>
+            </div>
+            <div class="pro">
+              <img
+                src="assets/images/mentalhealthguru.jpeg"
+                alt="Guru"
+                srcset=""
+              />
+              <div class="des">
+                <h5>Dr. Benjamin Mitchell</h5>
+                <h4>MENTAL HEALTH GURU</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Classes-->
+    <section id="classes">
+      <h1>Our Training Classes</h1>
+      <div class="row">
+        <div class="pro">
+          <div class="circle">$35</div>
+          <img src="assets/images/yoga.jpg" alt="yoga" srcset="" />
+          <div class="des">
+            <h2>YOGA</h2>
+            <h4>Trained By - Bella</h4>
+            <p>
+              Discover the transformative power of fitness at our gym. Unite
+              mind, body, and spirit as experienced instructors guide you in
+              cultivating strength, flexibility, and inner peace. Embrace the
+              journey to holistic well-being through the practice of fitness.
+            </p>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="circle">$50</div>
+          <img src="assets/images/fitness.jpg" alt="fitness" srcset="" />
+          <div class="des">
+            <h2>FITNESS</h2>
+            <h4>Trained By - Brandon</h4>
+            <p>
+              Discover the transformative power of yoga at our gym. Unite mind,
+              body, and spirit as experienced instructors guide you in
+              cultivating strength, flexibility, and inner peace. Embrace the
+              journey to holistic well-being through the practice of yoga.
+            </p>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="circle">$65</div>
+          <img
+            src="assets/images/mentalhealth.jpg"
+            alt="mental health"
+            srcset=""
+          />
+          <div class="des">
+            <h2>MENTAL HEALTH</h2>
+            <h4>Trained By - Dr. Mitchell</h4>
+            <p>
+              Discover the transformative power of yoga at our gym. Unite mind,
+              body, and spirit as experienced instructors guide you in
+              cultivating strength, flexibility, and inner peace. Embrace the
+              journey to holistic well-being through the practice of yoga.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+      <div class="row">
+        <div class="form-details">
+          <form action="">
+            <h2>Reach Out To Us!</h2>
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="E-mail" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <button class="normal">SEND BUTTON</button>
+          </form>
+        </div>
+        <div class="details">
+          <h2>You Can Find Us At!</h2>
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>123-345 ABCD - State of NotDbadguy</p>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.397015962631!2d6.695306172606494!3d6.2112540129821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043f2642160a83f%3A0xa4a1b4fbcc24626d!2sPost-Primary%20Education%20Board!5e0!3m2!1sen!2sng!4v1686953255350!5m2!1sen!2sng"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="line-2"></div>
+      <div class="content">
+        <p>Copyright &copy; FitFusion. Made by NotDBadGuy</p>
+        <div class="email">
+          <p><i class="fa-regular fa-envelope"></i>Reachout@fitfusion.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
