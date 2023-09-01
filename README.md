@@ -1,0 +1,1 @@
+# FitFusion is your all-in-one destination for achieving your fitness goals. Whether you're a beginner looking to kickstart your fitness journey or an experienced fitness enthusiast aiming to reach new heights, FitFusion has you covered.
